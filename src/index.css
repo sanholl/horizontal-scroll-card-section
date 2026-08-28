@@ -29,3 +29,42 @@ html, body {
 .dummy-section {
   min-height: 100svh;
 }
+
+/* Horizontal Section */
+.horizontal-section {
+  
+}
+
+.section-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-content-group {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.column-content-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.track-wrapper {  
+  padding-left: max(calc((100% - var(--inner-max)) / 2), var(--gutter));
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
