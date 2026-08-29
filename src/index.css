@@ -1,4 +1,10 @@
 /* Reset / Global */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
+
+body {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -31,40 +37,99 @@ html, body {
 }
 
 /* Horizontal Section */
-.horizontal-section {
-  
+.horizontal-wrapper {
+  position: relative;
 }
 
-.section-wrapper {
-  display: flex;
-  flex-direction: column;
+.sticky-pin {
+  position: sticky;
 }
 
-.row-content-group {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  gap: 10px;
-}
-
-.column-content-group {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.track-wrapper {  
-  padding-left: max(calc((100% - var(--inner-max)) / 2), var(--gutter));
+.track-wrapper {
+  overflow-x: hidden;
 }
 
 .track {
   display: flex;
   flex-direction: row;
+  gap: 400px;
+  padding-inline: max(calc((100% - var(--inner-max)) / 2), var(--gutter));
+  width: max-content;
+  min-width: 100%;
+}
+
+.section-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.section-heading {
+  position: sticky;
+  left: max(calc((100% - var(--inner-max)) / 2), var(--gutter));
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 30px;
+  background: #fff;
+  z-index: 2;
+}
+
+.section-heading p {
+  color: #666;
+}
+
+.section-heading a {
+  font-size: 12px;
+  color: #666;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
   gap: 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-content span {
+  font-size: 12px;
+  color: #666;
+  font-weight: bold;
+}
+
+.card-content h3 {
+  margin: 0;
 }
 
 .card-item {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 500px;
+  flex-shrink: 0;
+}
+
+.card-img {
+  aspect-ratio: 8 / 5;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.card-item:hover .card-img img {
+  transform: scale(1.05);
 }

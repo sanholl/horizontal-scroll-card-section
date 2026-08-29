@@ -1,6 +1,5 @@
 import type { CardSection } from "./types";
 
-// 초기 데이터가 있고 섹션, 카드가 추가가 가능
 export const initData: CardSection[] = [
   {
     id: '1',
