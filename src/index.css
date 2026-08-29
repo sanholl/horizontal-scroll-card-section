@@ -115,6 +115,9 @@ html, body {
   gap: 20px;
   width: 500px;
   flex-shrink: 0;
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
 }
 
 .card-img {
@@ -132,4 +135,24 @@ html, body {
 
 .card-item:hover .card-img img {
   transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+  .track-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .track-wrapper::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+
+  .track {
+    gap: 40px;
+  }
+
+  .card-item {
+    width: 280px;
+  }
 }
