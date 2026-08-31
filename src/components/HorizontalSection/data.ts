@@ -13,8 +13,8 @@ export const initData: CardSection[] = [
         category: 'section1-card1-category',
         href: '#',
         image: {
-          src: 'https://picsum.photos/seed/section1-card1/800/500',
-          alt: '',
+          src: 'https://placehold.co/800x500/e9e9e9/555555?text=Section1+Card1',
+          alt: 'Section1 Card1',
         }
       },
       {
@@ -23,8 +23,8 @@ export const initData: CardSection[] = [
         category: 'section1-card2-category',
         href: '#',
         image: {
-          src: 'https://picsum.photos/seed/section1-card2/800/500',
-          alt: '',
+          src: 'https://placehold.co/800x500/e3e3e3/555555?text=Section1+Card2',
+          alt: 'Section1 Card2',
         }
       },
       {
@@ -33,8 +33,8 @@ export const initData: CardSection[] = [
         category: 'section1-card3-category',
         href: '#',
         image: {
-          src: 'https://picsum.photos/seed/section1-card3/800/500',
-          alt: '',
+          src: 'https://placehold.co/800x500/dcdcdc/555555?text=Section1+Card3',
+          alt: 'Section1 Card3',
         }
       },
     ]
@@ -51,8 +51,8 @@ export const initData: CardSection[] = [
         category: 'section2-card1-category',
         href: '#',
         image: {
-          src: 'https://picsum.photos/seed/section2-card1/800/500',
-          alt: '',
+          src: 'https://placehold.co/800x500/e9e9e9/555555?text=Section2+Card1',
+          alt: 'Section2 Card1',
         }
       },
       {
@@ -61,8 +61,8 @@ export const initData: CardSection[] = [
         category: 'section2-card2-category',
         href: '#',
         image: {
-          src: 'https://picsum.photos/seed/section2-card2/800/500',
-          alt: '',
+          src: 'https://placehold.co/800x500/e3e3e3/555555?text=Section2+Card2',
+          alt: 'Section2 Card2',
         }
       },
       {
@@ -71,8 +71,8 @@ export const initData: CardSection[] = [
         category: 'section2-card3-category',
         href: '#',
         image: {
-          src: 'https://picsum.photos/seed/section2-card3/800/500',
-          alt: '',
+          src: 'https://placehold.co/800x500/dcdcdc/555555?text=Section2+Card3',
+          alt: 'Section2 Card3',
         }
       },
     ]
