@@ -26,14 +26,19 @@ html, body {
   }
 }
 
-.inner {
-  width: min(var(--inner-max), 100% - var(--gutter) * 2);
-  margin-inline: auto;
-}
-
 /* Page */
 .dummy-section {
-  min-height: 100svh;
+  min-height: 80svh;
+  width: min(var(--inner-max), 100% - var(--gutter) * 2);
+  margin-inline: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px dashed #dee2e6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6c757d;
 }
 
 /* Horizontal Section */

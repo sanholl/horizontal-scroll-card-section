@@ -13,7 +13,7 @@ export const initData: CardSection[] = [
         category: 'section1-card1-category',
         href: '#',
         image: {
-          src: 'https://placehold.co/800x500/e9e9e9/555555?text=Section1+Card1',
+          src: '/img/1.jpg',
           alt: 'Section1 Card1',
         }
       },
@@ -23,7 +23,7 @@ export const initData: CardSection[] = [
         category: 'section1-card2-category',
         href: '#',
         image: {
-          src: 'https://placehold.co/800x500/e3e3e3/555555?text=Section1+Card2',
+          src: '/img/2.jpg',
           alt: 'Section1 Card2',
         }
       },
@@ -33,7 +33,7 @@ export const initData: CardSection[] = [
         category: 'section1-card3-category',
         href: '#',
         image: {
-          src: 'https://placehold.co/800x500/dcdcdc/555555?text=Section1+Card3',
+          src: '/img/3.jpg',
           alt: 'Section1 Card3',
         }
       },
@@ -51,7 +51,7 @@ export const initData: CardSection[] = [
         category: 'section2-card1-category',
         href: '#',
         image: {
-          src: 'https://placehold.co/800x500/e9e9e9/555555?text=Section2+Card1',
+          src: '/img/4.jpg',
           alt: 'Section2 Card1',
         }
       },
@@ -61,7 +61,7 @@ export const initData: CardSection[] = [
         category: 'section2-card2-category',
         href: '#',
         image: {
-          src: 'https://placehold.co/800x500/e3e3e3/555555?text=Section2+Card2',
+          src: '/img/5.jpg',
           alt: 'Section2 Card2',
         }
       },
@@ -71,7 +71,7 @@ export const initData: CardSection[] = [
         category: 'section2-card3-category',
         href: '#',
         image: {
-          src: 'https://placehold.co/800x500/dcdcdc/555555?text=Section2+Card3',
+          src: '/img/6.jpg',
           alt: 'Section2 Card3',
         }
       },

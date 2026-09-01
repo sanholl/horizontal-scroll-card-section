@@ -6,13 +6,13 @@ function App() {
   return (
     <>
       <section className="dummy-section">
-        <div className='inner' />
+        <h2>Previous Section</h2>
       </section>
 
       <HorizontalSection />
 
       <section className="dummy-section">
-        <div className='inner' />
+        <h2>Next Section</h2>
       </section>
     </>
   )
